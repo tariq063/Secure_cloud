@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Document Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Secure Document Storage</h1>
+        <div class="upload-section">
+            <h2>Upload File</h2>
+            <input type="file" id="fileUpload" />
+            <button id="uploadButton">Upload</button>
+        </div>
+        <div class="download-section">
+            <h2>Download File</h2>
+            <input type="text" id="keyInput" placeholder="Enter your decryption key" />
+            <button id="downloadButton">Download</button>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
